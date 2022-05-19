@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  background-image: -webkit-gradient(linear, left top, right top, from(#89c2d9), to(#a9d6e5));
+  background-image: linear-gradient(90deg, #89c2d9, #a9d6e5);
+  font-family: sans-serif;
+}
+
+header {
+  margin: 100px;
+}
+
+header h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: lighter;
+}
+
+main {
+  margin-left: 100px;
+}
+
+main .sidebar {
+  height: 100%;
+  width: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 60px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main .sidebar .logo {
+  padding-left: 6.5px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 60px;
+  width: 60px;
+  background: none;
+  padding-bottom: 100px;
+  padding-top: 40px;
+}
+
+main .sidebar a {
+  display: block;
+  margin: 15px;
+  text-decoration: none;
+  color: white;
+  background: none;
+}
+
+main .sidebar a img {
+  height: 36px;
+  width: 36px;
+  vertical-align: middle;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  background: none;
+}
+
+main .sidebar a span {
+  line-height: 32px;
+  opacity: 0;
+  margin-left: 15px;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+  background: none;
+}
+
+main .sidebar:hover {
+  background: white;
+  width: 175px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+main .sidebar:hover a span {
+  opacity: 1;
+  color: #696969;
+}
+
+main .widget {
+  float: left;
+  background: rgba(255, 255, 255, 0.2);
+  width: 275px;
+  max-height: 375px;
+  min-height: 375px;
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 2 13%;
+          flex: 1 2 13%;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+main .widget img {
+  height: 25px;
+  width: 25px;
+  background: none;
+  vertical-align: middle;
+}
+
+main .widget h1 {
+  padding-bottom: 10px;
+  background: none;
+  color: white;
+  display: inline-block;
+}
+
+main .widget p {
+  background: none;
+  color: white;
+  font-size: 20px;
+}
+
+main .widget:hover {
+  border-radius: 20px;
+  -webkit-box-flex: 100px;
+      -ms-flex-positive: 100px;
+          flex-grow: 100px;
+  width: 325px;
+  min-height: 375px;
+  max-height: 375px;
+  background: white;
+  overflow: unset;
+}
+
+main .widget:hover h1 {
+  color: #696969;
+}
+
+main .widget:hover p {
+  color: #787878;
+}
+/*# sourceMappingURL=index.css.map */
